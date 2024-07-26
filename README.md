@@ -24,7 +24,7 @@ Please note that all the below flows are tested on Mac OS. If you are using Wind
       sqlite3 user.db
     ```
 
-### Start kafka
+### Start kafka and send data from SQLite to Kafka
 1. Open a new terminal and start zookeeper
     ```bash
     ./kafka_2.12-3.7.1/bin/zookeeper-server-start.sh ./kafka_2.12-3.7.1/config/zookeeper.properties
